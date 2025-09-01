@@ -1,0 +1,40 @@
+# Python venv
+.venv/
+env/
+venv/
+
+# MkDocs build output
+/site/
+
+# Node (si jamais tu ajoutes des scripts JS)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+
+# Obsidian vault junk
+.obsidian/
+
+# Logs
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Backup files
+*.bak
+*.tmp
+
+# Coverage / testing
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
