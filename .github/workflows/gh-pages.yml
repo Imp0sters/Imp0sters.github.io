@@ -20,14 +20,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0        # correct dates for git-revision-date-localized
       - uses: actions/setup-python@v5
         with:
           python-version: "3.x"
       - name: Install dependencies
         run: |
-          pip install mkdocs-material mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin mkdocs-pagetree-plugin
-          # Si tu remets le sitemap:
+          pip install mkdocs-material mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin
+          # Optional sitemap support:
           # pip install mkdocs-sitemap
       - name: Build site
         run: mkdocs build

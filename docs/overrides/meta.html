@@ -1,4 +1,4 @@
-{# Safe computed vars #}
+{# Safe computed vars for project pages under /ADMR/ #}
 {% set _title = (page.title ~ " - " ~ config.site_name) if page and page.title else config.site_name %}
 {% set _desc  = (page.meta.description) if page and page.meta and page.meta.description else config.site_description %}
 {% set _url   = (page.canonical_url) if page and page.canonical_url else config.site_url %}

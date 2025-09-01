@@ -1,8 +1,8 @@
 site_name: ADMR — Active Directory Mindmap Recipes
 site_description: Documentation officielle ADMR — mindmaps, guides et workflows pour pentest Active Directory.
 site_author: Imp0ster
-site_url: https://imp0sters.github.io/ADMR/
-repo_url: https://github.com/Imp0sters/ADMR
+site_url: https://imp0sters.github.io/ADMR/   # IMPORTANT: project path with /ADMR/
+repo_url: https://github.com/Imp0ster/ADMR
 repo_name: Imp0ster/ADMR
 copyright: © 2025 Imp0ster
 
@@ -42,7 +42,9 @@ extra:
 
 plugins:
   - search
-  - pagetree
+  # optional: - sitemap:  (if you install "mkdocs-sitemap")
+  #             changefreq: daily
+  #             priority: 0.9
   - minify:
       minify_html: true
   - git-revision-date-localized:
