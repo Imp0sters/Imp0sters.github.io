@@ -42,9 +42,7 @@ extra:
 
 plugins:
   - search
-  - sitemap:
-      changefreq: daily
-      priority: 0.9
+  - pagetree
   - minify:
       minify_html: true
   - git-revision-date-localized:
