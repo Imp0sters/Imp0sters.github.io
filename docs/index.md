@@ -22,10 +22,11 @@ Built from the field, inspired by the **OCD mindmap** and **Hacker Recipes**, AD
 ```bash
 # Clone
 git clone https://github.com/Imp0ster/ADMR.git
-cd ADMR
+1. Clone the repo and **open it as an Obsidian vault**.  
+2. Navigate by **context** depending on your current foothold.  
+3. Use **theory**, **commands**, and **tools** sections to act quickly.  
+4. Extend with your **own recipes** as you learn.
 
-# Open as an Obsidian vault
-# ...or just browse the mindmap/markdown structure
 ```
 
 > Need the doc site? This page is the entire documentation (one‑page). Deploy with GitHub Pages.
@@ -75,19 +76,11 @@ Each node contains:
 
 ---
 
-## 💼 How to Use
-1. Clone the repo and **open it as an Obsidian vault**.  
-2. Navigate by **context** depending on your current foothold.  
-3. Use **theory**, **commands**, and **tools** sections to act quickly.  
-4. Extend with your **own recipes** as you learn.
-
----
-
 ## 🤝 Contributing
 We welcome PRs and issues:
 - Add techniques, fix typos, improve structure, or add links
 - Propose refactors to keep the mindmap practical
-- Use feature branches (`feat/...`) and write clear commit messages
+- Use feature branches (`feat/...`) and write clear commit messages (conventional commits please)
 
 **Open a PR:** https://github.com/Imp0ster/ADMR/pulls  
 **Open an issue:** https://github.com/Imp0ster/ADMR/issues
@@ -95,8 +88,8 @@ We welcome PRs and issues:
 ---
 
 ## 👥 Authors
-- **Amine B.** ([@gr0bot](https://github.com/gr0bot))  
 - **Evariste Gwanulaga** ([@bl4ckarch](https://github.com/bl4ckarch))
+- **Amine B.** ([@gr0bot](https://github.com/gr0bot))  
 
 ---
 
@@ -105,10 +98,7 @@ Licensed under **GNU GPLv3**.
 Use, modify, and share — please credit the authors.
 
 ---
-
 ## 🙏 Acknowledgments
 - **[Orange Cyberdefense — OCD Mindmaps](https://github.com/Orange-Cyberdefense/ocd-mindmaps)**
 - **[Hacker Recipes](https://www.thehacker.recipes/)**
 - **[Ecole 2600](https://www.2600.eu/)**
-
----
