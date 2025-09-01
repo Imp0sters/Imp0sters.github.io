@@ -1,0 +1,22 @@
+{% if page and page.meta and page.meta.title %}
+  {% set title = page.meta.title ~ " - " ~ config.site_name %}
+{% else %}
+  {% set title = config.site_name %}
+{% endif %}
+
+<title>{{ title }}</title>
+<link rel="canonical" href="{{ page.canonical_url or (config.site_url ~ page.url) }}">
+
+<meta name="description" content="{{ page.meta.description or config.site_description }}">
+<meta name="author" content="{{ config.site_author }}">
+
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" content="{{ page.meta.description or config.site_description }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://imp0sters.github.io/ADMR/">
+<meta property="og:image" content="https://imp0sters.github.io/ADMR/assets/img/cover.png">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ title }}">
+<meta name="twitter:description" content="{{ page.meta.description or config.site_description }}">
+<meta name="twitter:image" content="https://imp0sters.github.io/ADMR/assets/img/cover.png">
