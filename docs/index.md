@@ -119,6 +119,6 @@ Use, modify, and share — please credit the authors.
 
 * **[Orange Cyberdefense — OCD Mindmaps](https://github.com/Orange-Cyberdefense/ocd-mindmaps)**
 * **[Hacker Recipes](https://www.thehacker.recipes/)**
-* **[Ecole 2600.eu](https://www.2600.eu/)**
+* **[Ecole 2600](https://www.2600.eu/)**
 
 
